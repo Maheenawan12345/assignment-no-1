@@ -1,0 +1,167 @@
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+nav{ 
+    
+    background:black ;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo{ font-size: 30px;
+    color: skyblue;
+}
+
+nav ul{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 18px;
+transition: 0.3s;
+text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: skyblue;
+}
+
+.hero{
+    height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.6) rgba(0,0,0,0.6));
+    background-image: url( dXP71Hj9OuCG-K1sd7exD4JmjtT-Epi8EPE6myL2eRd-9vkPV1uIIsRlnlrQgIl-W4Q7XiqV9Cld-cJdCC4bDjrOp6wm1d2BtqgzF_8fxwJ0p-eIPTFRZuAAOc8FAeQOOdaoX1E9VCM36OUtwBk5brmXrJYxPEUzeNYUEXnhV6b4diAbPPzRfuW4DBPkU21v.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+.hero-content{
+    max-width: 600px;}
+.hero-content h2{
+    font-size: 70px;
+    margin-bottom: 20px;
+    
+}
+.hero-content p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-content button{
+    padding:15px 35px ;
+    border:none ;
+    background:skyblue ;
+    color: white;
+    font-weight:bold ;
+    font-size: 18px ;
+    cursor: pointer;
+    border-radius:8px ;
+    transition:0.5s ;
+    box-shadow:0 0 2px skyblue ;
+
+}
+
+.hero-content button :hover{
+    background: white;
+    transform: scale(1.06);
+}
+
+.cars-section {
+    padding: 100px 50px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 60px;
+    color: skyblue;
+}
+
+.cars-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.car-card {
+    width: 320px;
+    background: rgba( 255,255,255,0.08);
+    backdrop-filter: blur(10px);
+
+    border-radius: 20px;
+    overflow: hidden;
+
+    transition: 0.4s;
+
+    box-shadow: 0 0 15px rgba( 0,255,255,0.2);
+}
+
+.cars-card :hover{
+    transform: translateY(-10px);
+}
+
+.car-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.car-card h3{
+    margin: 20px;
+    font-size: 28px;
+}
+
+.car-card p {
+    margin: 0 20px 20px;
+    color: #cccccc;
+}
+
+.car-card button{
+    margin: 20px;
+    padding:12px 25px ;
+    border:none ;
+    background:skyblue;
+    color:black ;
+    font-weight:bold ;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+footer{
+    background: black;
+    text-align:center;
+    padding: 20px;
+    color: skyblue;
+}
+
+
